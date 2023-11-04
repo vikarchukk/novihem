@@ -57,7 +57,7 @@ header h1 {
 @media (max-width: 1300px) {
   .content { padding: 20px 0 }
   .content_wrap { flex-direction: column; gap: 20px 0;}
-  .content_text_wrap { width: 100%; }
+  .content_text_wrap { width: 100%; gap: 20px 0; }
   .content_img { width: 100%; height: 400px; }
 }
 

@@ -1,19 +1,20 @@
 /* header */
 
 header {
-  border: 1px dashed #000000;
-  box-sizing: border-box;
   height: 900px;
   width: 100%;
   display: flex; justify-content: center; align-items: center;
-	background-image: url(data:image/gif;base64,R0lGODlhCgAIAIABAN3d3f///yH5BAEAAAEALAAAAAAKAAgAAAINjAOnyJv2oJOrVXrzKQA7);
+  background-image: url('../img/tjenster/header.jpg');
+  background-position: center center;
+  background-size: cover;
+  background-repeat: no-repeat;
 }
 
 header h1 {
   padding: 0;
   font-family: 'Montserrat Black', sans-serif;
   font-size: 100px;
-  color: var(--black);
+  color: var(--while);
 }
 
 @media (max-width: 1020px) { header { height: 800px; } header h1 { font-size: 70px; } }
@@ -50,22 +51,26 @@ header h1 {
 }
 
 .cards_wrap a div {
-  border: 1px dashed #000000;
-  box-sizing: border-box;
   width: 540px;
   height: 370px;
-  background-image: url(data:image/gif;base64,R0lGODlhCgAIAIABAN3d3f///yH5BAEAAAEALAAAAAAKAAgAAAINjAOnyJv2oJOrVXrzKQA7);
+  background-position: center center;
+  background-size: cover;
+  background-repeat: no-repeat;
 }
 
+.cards_wrap a:nth-child(1) div { background-image: url('../img/tjenster/1.jpg') }
+.cards_wrap a:nth-child(2) div { background-image: url('../img/tjenster/2.jpg') }
+.cards_wrap a:nth-child(3) div { background-image: url('../img/tjenster/3.jpg') }
+
 @media (max-width: 1200px) { 
-  .cards { padding: 60px 0; }
+  .cards { padding: 45px 0; }
   .cards_wrap { gap: 40px; }
   .cards_wrap a h4 { font-size: 35px; margin: 0 0 7px 0; }
   .cards_wrap a div { width: 350px; height: 230px; }
 }
 
 @media (max-width: 390px) { 
-  .cards { padding: 55px 0; }
+  .cards { padding: 35px 0; }
   .cards_wrap { gap: 35px; }
   .cards_wrap a h4 { font-size: 30px; margin: 0 0 5px 0; }
   .cards_wrap a div { width: 300px; height: 197px; }

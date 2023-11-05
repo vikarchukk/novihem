@@ -1,79 +1,82 @@
-/* header */
-
-header {
-  height: 900px;
-  width: 100%;
-  display: flex; justify-content: center; align-items: center;
-  background-image: url('../img/tjenster/header.jpg');
-  background-position: center center;
-  background-size: cover;
-  background-repeat: no-repeat;
-}
-
-header h1 {
-  padding: 0;
-  font-family: 'Montserrat Black', sans-serif;
-  font-size: 100px;
-  color: var(--while);
-}
-
-@media (max-width: 1020px) { header { height: 800px; } header h1 { font-size: 70px; } }
-@media (max-width: 750px) { header { height: 600px; } header h1 { font-size: 50px; } }
-@media (max-width: 390px) { header { height: 400px; } header h1 { font-size: 35px; } }
-
-/* header */
-
 /* cards */
 
-.cards { padding: 65px 0; }
+.cards {
+    padding: 65px 0;
+}
 
-.cards_wrap { 
-  display: flex;
-  justify-content: center;
-  flex-wrap: wrap;
-  gap: 50px;
+.cards_wrap {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 50px;
 }
 
 .cards_wrap a {
-  display: block;
-  text-decoration: none;
-  opacity: 1; transition: opacity 0.5s;
+    display: block;
+    text-decoration: none;
+    opacity: 1;
+    transition: opacity 0.5s;
 }
 
-.cards_wrap a:hover { opacity: 0.6; }
+.cards_wrap a:hover {
+    opacity: 0.6;
+}
 
 .cards_wrap a h4 {
-  color: var(--black);
-  font-family: 'Montserrat Bold', sans-serif;
-  font-style: italic;
-  font-size: 40px;
-  margin: 0 0 10px 0; padding: 0;
+    color: var(--black);
+    font-family: 'Montserrat Bold', sans-serif;
+    font-style: italic;
+    font-size: 40px;
+    margin: 0 0 10px 0;
+    padding: 0;
 }
 
 .cards_wrap a div {
-  width: 540px;
-  height: 370px;
-  background-position: center center;
-  background-size: cover;
-  background-repeat: no-repeat;
+    width: 540px;
+    height: 370px;
+    background-position: center center;
+    background-size: cover;
+    background-repeat: no-repeat;
 }
 
-.cards_wrap a:nth-child(1) div { background-image: url('../img/tjenster/1.jpg') }
-.cards_wrap a:nth-child(2) div { background-image: url('../img/tjenster/2.jpg') }
-.cards_wrap a:nth-child(3) div { background-image: url('../img/tjenster/3.jpg') }
+@media (max-width: 1200px) {
+    .cards {
+        padding: 45px 0;
+    }
 
-@media (max-width: 1200px) { 
-  .cards { padding: 45px 0; }
-  .cards_wrap { gap: 40px; }
-  .cards_wrap a h4 { font-size: 35px; margin: 0 0 7px 0; }
-  .cards_wrap a div { width: 350px; height: 230px; }
+    .cards_wrap {
+        gap: 40px;
+    }
+
+    .cards_wrap a h4 {
+        font-size: 35px;
+        margin: 0 0 7px 0;
+    }
+
+    .cards_wrap a div {
+        width: 350px;
+        height: 230px;
+    }
 }
 
-@media (max-width: 390px) { 
-  .cards { padding: 35px 0; }
-  .cards_wrap { gap: 35px; }
-  .cards_wrap a h4 { font-size: 30px; margin: 0 0 5px 0; }
-  .cards_wrap a div { width: 300px; height: 197px; }
+@media (max-width: 390px) {
+    .cards {
+        padding: 35px 0;
+    }
+
+    .cards_wrap {
+        gap: 35px;
+    }
+
+    .cards_wrap a h4 {
+        font-size: 30px;
+        margin: 0 0 5px 0;
+    }
+
+    .cards_wrap a div {
+        width: 300px;
+        height: 197px;
+    }
 }
 
 /* cards */

@@ -146,7 +146,7 @@ nav {
         gap: 0;
         margin: auto;
         position: relative;
-        top: -30px;
+        top: -20px;
     }
 
     .nav_links a {
@@ -176,8 +176,8 @@ header {
 
 header h1 {
     padding: 0;
-    font-family: 'Montserrat Black', sans-serif;
-    font-size: 100px;
+    font-family: 'Montserrat Extra Bold', sans-serif;
+    font-size: 90px;
     color: var(--while);
 }
 

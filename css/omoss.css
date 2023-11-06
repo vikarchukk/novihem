@@ -41,6 +41,7 @@
 
     .content_text_wrap {
         width: 100%;
+        gap: 20px 0;
     }
 
     .content_img {
@@ -52,10 +53,6 @@
 @media (max-width: 580px) {
     .content_text_wrap div {
         font-size: 19px;
-    }
-
-    .content_text_wrap {
-        gap: 20px 0;
     }
 }
 

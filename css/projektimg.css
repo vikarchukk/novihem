@@ -15,36 +15,25 @@
 .photos_wrap div {
     width: calc(50% - 50px);
     height: 460px;
-
     background-position: center center;
     background-size: cover;
     background-repeat: no-repeat;
 }
 
 @media (max-width: 1060px) {
-    .photos_wrap {
-        flex-direction: column;
-    }
-
-    .photos_wrap div {
-        width: calc(100% - 50px);
-    }
-}
-
-@media (max-width: 720px) {
     .photos {
         padding: 20px 0;
     }
 
     .photos_wrap {
+        flex-direction: column;
         gap: 20px 0;
     }
 
     .photos_wrap div {
-        width: 100%;
         height: 400px;
+        width: 100%;
     }
-    
 }
 
 /* photos */

@@ -43,23 +43,12 @@
 }
 
 @media (max-width: 1060px) {
-
-    .cards_wrap {
-        flex-direction: column;
-    }
-
-    .cards_wrap a {
-        width: calc(100% - 50px);
-    }
-
-}
-
-@media (max-width: 720px) {
     .cards {
         padding: 20px 0;
     }
 
     .cards_wrap {
+        flex-direction: column;
         gap: 20px 0;
     }
 
@@ -75,7 +64,7 @@
     .cards_wrap p {
         font-size: 30px;
     }
-    
+
 }
 
 /* cards */

@@ -44,21 +44,12 @@
 }
 
 @media (max-width: 1060px) {
-    .photos_wrap {
-        flex-direction: column;
-    }
-
-    .photos_wrap a {
-        width: calc(100% - 50px);
-    }
-}
-
-@media (max-width: 720px) {
     .photos {
         padding: 20px 0;
     }
 
     .photos_wrap {
+        flex-direction: column;
         gap: 30px 0;
     }
 
@@ -68,13 +59,12 @@
     }
 
     .photos_wrap div {
-        height: calc(100% - 23px);
+        height: calc(100% - 29.5px);
     }
 
     .photos_wrap p {
-        font-size: 14px;
+        font-size: 16px;
     }
-    
 }
 
 /* photos */

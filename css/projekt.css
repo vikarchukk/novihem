@@ -59,11 +59,11 @@
     }
 
     .photos_wrap div {
-        height: calc(100% - 29.5px);
+        height: calc(100% - 27px);
     }
 
     .photos_wrap p {
-        font-size: 16px;
+        font-size: 14px;
     }
 }
 

@@ -32,8 +32,9 @@ textarea {
     padding: 0px 15px 0px 15px;
     font-family: 'Montserrat Regular', sans-serif;
     font-size: 15px;
+    color: var(--black);
     outline: none;
-    border: solid 1px var(--black);
+    border: solid 1px var(--grey);
     border-bottom: none;
     border-radius: 0;
 }
@@ -52,8 +53,8 @@ textarea {
     padding: 0;
     font-family: 'Montserrat Bold', sans-serif;
     font-size: 15px;
-    background-color: #0C356A;
-    border: solid 1px var(--black);
+    background-color: var(--grey);
+    border: solid 1px var(--grey);
     color: var(--while);
     outline: none;
     cursor: pointer;
@@ -61,7 +62,7 @@ textarea {
 }
 
 #form-button:hover { 
-    background-color: #005B41;
+    background-color: #0C356A;
 }
 
 #form-status:empty {
@@ -76,8 +77,9 @@ textarea {
     margin: 0;
     font-family: 'Montserrat Regular', sans-serif;
     font-size: 14px;
+    color: var(--black);
     background-color: #ffffff;
-    border: solid 1px var(--black);
+    border: solid 1px var(--grey);
     border-top: none;
     text-align: center;
 }

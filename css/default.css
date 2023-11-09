@@ -57,6 +57,10 @@ body {
     color: var(--while);
 }
 
+.footer_links a {
+    margin-right: auto;
+}
+
 /* nav */
 
 nav {

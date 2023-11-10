@@ -1,0 +1,190 @@
+/* tjenster */
+
+.tjenster {
+    padding: 50px 0;
+}
+
+.tjenster_wrap {
+    display: flex;
+    flex-direction: column;
+    gap: 50px 0;
+}
+
+.tjenster_item_r,
+.tjenster_item_l {
+    display: flex;
+    justify-content: center;
+    gap: 0 10px;
+}
+
+.tjenster_item_content {
+    width: 600px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px 0;
+}
+
+.tjenster_item_title {
+    color: var(--black);
+    font-family: 'Montserrat Bold', sans-serif;
+    font-size: 40px;
+}
+
+.tjenster_item_r .tjenster_item_content {
+    text-align: right;
+    align-items: end;
+}
+
+.tjenster_item_l .tjenster_item_content {
+    text-align: left;
+    align-items: start;
+}
+
+.tjenster_item_text {
+    display: flex;
+    flex-direction: column;
+    gap: 10px 0;
+}
+
+.tjenster_item_text div {
+    color: var(--black);
+    font-family: 'Montserrat Medium', sans-serif;
+    font-size: 20px;
+}
+
+.tjenster_item_link {
+    width: auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 7px 10px 7px 10px;
+    margin: 0;
+    font-family: 'Montserrat Semi Bold', sans-serif;
+    font-size: 15px;
+    text-decoration: none;
+    background-color: var(--grey);
+    color: var(--while);
+    transition: background-color 0.8s;
+}
+
+.tjenster_item_link:hover { 
+    background-color: #0C356A;
+}
+
+.tjenster_item_img {
+    width: 600px;
+    height: 380px;
+    background-position: center center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+@media (max-width: 1280px) {
+    .tjenster {
+        padding: 20px 0;
+    }
+
+    .tjenster_wrap {
+        gap: 20px 0;
+    }
+}
+
+@media (max-width: 880px) {
+    .tjenster_item_title {
+        font-size: 31px;
+    }
+}
+
+@media (max-width: 700px) {
+    .tjenster_item_l {
+        gap: 20px 0;
+        flex-direction: column;
+    }
+
+    .tjenster_item_r {
+        gap: 20px 0;
+        flex-direction: column-reverse;
+    }
+
+    .tjenster_item_img {
+        width: 100%;
+        height: 300px;
+    }
+
+    .tjenster_item_content {
+        width: 100%;
+    }
+}
+
+@media (max-width: 420px) {
+    .tjenster_item_title {
+        font-size: 31px;
+    }
+
+    .tjenster_item_text div {
+        font-size: 17px;
+    }
+
+    .tjenster_item_content {
+        gap: 15px 0;
+    }
+}
+
+/* tjenster */
+
+.glide {
+    overflow: hidden;
+    padding-bottom: 50px;
+}
+
+.glide__slides {
+    display: flex;
+}
+
+.glide__slide {
+    height: 550px;
+}
+
+.glide__bullets {
+    display: flex;
+    justify-content: center;
+    gap: 0 20px;
+    padding-top: 20px;
+}
+
+.glide__bullet {
+    width: 10px;
+    height: 10px;
+    border: solid 1px var(--grey);
+    cursor: pointer;
+}
+
+.glide__bullet--active {
+    background-color: var(--grey);
+}
+
+@media (max-width: 350px) {
+    .glide__bullets {
+        gap: 0 12px;
+    }
+}
+
+@media (max-width: 700px) {
+    .glide__slide {
+        height: 450px;
+    }
+}
+
+@media (min-width: 1280px) {
+    .glide__bullet:nth-last-child(-n+2) {
+        display: none;
+    }
+}
+
+@media (min-width: 700px) {
+    .glide__bullet:last-child {
+        display: none;
+    }
+}
+
+/* <!-- зробити кнопку більше проектів !!! --> */

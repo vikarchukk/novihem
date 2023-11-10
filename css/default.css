@@ -176,31 +176,10 @@ header {
     background-position: center center;
     background-size: cover;
     background-repeat: no-repeat;
-}
-
-header h1 {
-    padding: 0;
+    /* background-attachment: fixed; */
     font-family: 'Montserrat Extra Bold', sans-serif;
-    font-size: 90px;
+    font-size: 8vw;
     color: var(--while);
-}
-
-@media (max-width: 1020px) {
-    header h1 {
-        font-size: 70px;
-    }
-}
-
-@media (max-width: 750px) {
-    header h1 {
-        font-size: 50px;
-    }
-}
-
-@media (max-width: 390px) {
-    header h1 {
-        font-size: 35px;
-    }
 }
 
 /* header */

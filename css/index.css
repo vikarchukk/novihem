@@ -1,3 +1,56 @@
+/* omoss */
+
+.omoss {
+    padding-top: 50px;
+}
+
+.omoss_wrap {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    align-items: center;
+    gap: 40px 0;
+}
+
+.omoss_title {
+    color: var(--black);
+    font-family: 'Montserrat Medium', sans-serif;
+    font-size: 20px;
+    letter-spacing: 0.3px;
+}
+
+.omoss_btn {
+    padding: 7px 10px 7px 10px;
+    font-family: 'Montserrat Semi Bold', sans-serif;
+    font-size: 25px;
+    text-decoration: none;
+    background-color: var(--grey);
+    color: var(--while);
+    transition: background-color 0.8s;
+}
+
+.omoss_btn:hover { 
+    background-color: #0C356A;
+}
+
+@media (max-width: 1280px) {
+    .omoss {
+        padding-top: 20px;
+    }
+
+    .omoss_wrap {
+        gap: 20px 0;
+    }
+}
+
+@media (max-width: 420px) {
+    .omoss_title {
+        font-size: 17px;
+    }
+}
+
+/* omoss */
+
 /* tjenster */
 
 .tjenster {
@@ -28,6 +81,7 @@
     color: var(--black);
     font-family: 'Montserrat Bold', sans-serif;
     font-size: 40px;
+    line-height: 29px;
 }
 
 .tjenster_item_r .tjenster_item_content {
@@ -53,12 +107,7 @@
 }
 
 .tjenster_item_link {
-    width: auto;
-    display: flex;
-    align-items: center;
-    justify-content: center;
     padding: 7px 10px 7px 10px;
-    margin: 0;
     font-family: 'Montserrat Semi Bold', sans-serif;
     font-size: 15px;
     text-decoration: none;
@@ -92,6 +141,7 @@
 @media (max-width: 880px) {
     .tjenster_item_title {
         font-size: 31px;
+        line-height: 21px;
     }
 }
 
@@ -117,10 +167,6 @@
 }
 
 @media (max-width: 420px) {
-    .tjenster_item_title {
-        font-size: 31px;
-    }
-
     .tjenster_item_text div {
         font-size: 17px;
     }
@@ -130,7 +176,16 @@
     }
 }
 
+@media (max-width: 350px) {
+    .tjenster_item_title {
+        font-size: 28px;
+        line-height: 28px;
+    }
+}
+
 /* tjenster */
+
+/* glide */
 
 .glide {
     overflow: hidden;
@@ -156,6 +211,7 @@
     width: 10px;
     height: 10px;
     border: solid 1px var(--grey);
+    /* border-radius: 100%; */
     cursor: pointer;
 }
 
@@ -163,15 +219,45 @@
     background-color: var(--grey);
 }
 
-@media (max-width: 350px) {
-    .glide__bullets {
-        gap: 0 12px;
+.glide__btn__wrap {
+    display: flex;
+    justify-content: center;
+    padding-top: 20px;
+}
+
+.glide__btn {
+    padding: 7px 10px 7px 10px;
+    font-family: 'Montserrat Semi Bold', sans-serif;
+    font-size: 15px;
+    text-decoration: none;
+    background-color: var(--grey);
+    color: var(--while);
+    transition: background-color 0.8s;
+}
+
+.glide__btn:hover { 
+    background-color: #0C356A;
+}
+
+@media (max-width: 1280px) {
+    .glide {
+        padding-bottom: 20px;
     }
 }
 
 @media (max-width: 700px) {
     .glide__slide {
         height: 450px;
+    }
+}
+
+@media (max-width: 350px) {
+    .glide__bullets {
+        gap: 0 12px;
+    }
+
+    .glide__slide {
+        height: 390px;
     }
 }
 
@@ -187,4 +273,4 @@
     }
 }
 
-/* <!-- зробити кнопку більше проектів !!! --> */
+/* glide */

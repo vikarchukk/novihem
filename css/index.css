@@ -135,28 +135,21 @@
 
     .stegsmetod_item {
         width: 300px;
-        /* width: 238px; */
         height: auto;
         padding: 0 10px;
     }
     
     .stegsmetod_item_img {
-        padding-top: 20px;
-    }
-
-    .stegsmetod_item_img svg {
-        height: 25px;
-        width: 25px;
+        padding-top: 25px;
     }
     
     .stegsmetod_item_title {
-        font-size: 18px;
-        padding-top: 10px;
-        padding-bottom: 10px;
+        padding-top: 15px;
+        padding-bottom: 15px;
     }
     
     .stegsmetod_item_text {
-        padding-bottom: 20px;
+        padding-bottom: 25px;
     }
 }
 

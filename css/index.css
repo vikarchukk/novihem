@@ -4,42 +4,17 @@
     padding-top: 50px;
 }
 
-.omoss_wrap {
-    display: flex;
-    flex-direction: column;
-    text-align: center;
-    align-items: center;
-    gap: 40px 0;
-}
-
 .omoss_title {
     color: var(--black);
     font-family: 'Montserrat Medium', sans-serif;
     font-size: 20px;
     letter-spacing: 0.3px;
-}
-
-.omoss_btn {
-    padding: 7px 10px 7px 10px;
-    font-family: 'Montserrat Semi Bold', sans-serif;
-    font-size: 25px;
-    text-decoration: none;
-    background-color: var(--grey);
-    color: var(--while);
-    transition: background-color 0.8s;
-}
-
-.omoss_btn:hover { 
-    background-color: #0C356A;
+    text-align: center;
 }
 
 @media (max-width: 1280px) {
     .omoss {
         padding-top: 20px;
-    }
-
-    .omoss_wrap {
-        gap: 20px 0;
     }
 }
 
@@ -50,6 +25,148 @@
 }
 
 /* omoss */
+
+/* stegsmetod */
+
+.stegsmetod {
+    padding-top: 50px;
+}
+
+.stegsmetod_title {
+    color: var(--black);
+    font-family: 'Montserrat Bold', sans-serif;
+    font-size: 40px;
+    text-align: center;
+    padding-bottom: 50px;
+}
+
+.stegsmetod_wrap {
+    display: flex;
+    justify-content: center;
+    gap: 0 50px;
+}
+
+.stegsmetod_item {
+    width: 162px;
+    height: 190px;
+    display: flex;
+    flex-direction: column;
+    background-color: var(--grey);
+    text-align: center;
+    padding: 0 20px;
+}
+
+.stegsmetod_item_img {
+    padding-top: 30px;
+}
+
+
+.stegsmetod_item_img svg {
+    height: 35px;
+    width: 35px;
+}
+
+.stegsmetod_item_title {
+    color: var(--while);
+    font-family: 'Montserrat Medium', sans-serif;
+    font-size: 22px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+.stegsmetod_item_text {
+    color: var(--while);
+    font-family: 'Montserrat Regular', sans-serif;
+    font-size: 12px;
+}
+
+.kontakt_wrap {
+    display: flex;
+    justify-content: center;
+    padding-top: 50px;
+}
+
+.kontakt_btn {
+    padding: 7px 0;
+    width: 202px;
+    text-align: center;
+    font-family: 'Montserrat Semi Bold', sans-serif;
+    font-size: 25px;
+    text-decoration: none;
+    background-color: var(--grey);
+    color: var(--while);
+    transition: background-color 0.8s;
+}
+
+.kontakt_btn:hover { 
+    background-color: #0C356A;
+}
+
+@media (max-width: 1280px) {
+    .stegsmetod {
+        padding-top: 20px;
+    }
+
+    .stegsmetod_title {
+        font-size: 40px;
+        padding-bottom: 20px;
+    }
+
+    .stegsmetod_wrap {
+        gap: 20px 20px;
+        flex-wrap: wrap;
+    }
+
+    .kontakt_wrap {
+        padding-top: 20px;
+    }
+}
+
+@media (max-width: 880px) {
+    .stegsmetod_title {
+        font-size: 31px;
+    }
+}
+
+@media (max-width: 463px) {
+    .stegsmetod_wrap {
+        gap: 20px 0;
+    }
+
+    .stegsmetod_item {
+        width: 300px;
+        /* width: 238px; */
+        height: auto;
+        padding: 0 10px;
+    }
+    
+    .stegsmetod_item_img {
+        padding-top: 20px;
+    }
+
+    .stegsmetod_item_img svg {
+        height: 25px;
+        width: 25px;
+    }
+    
+    .stegsmetod_item_title {
+        font-size: 18px;
+        padding-top: 10px;
+        padding-bottom: 10px;
+    }
+    
+    .stegsmetod_item_text {
+        padding-bottom: 20px;
+    }
+}
+
+@media (max-width: 420px) {
+    .stegsmetod_title {
+        font-size: 28px;
+    }
+}
+
+/* stegsmetod */
 
 /* tjenster */
 
@@ -222,7 +339,7 @@
 .glide__btn__wrap {
     display: flex;
     justify-content: center;
-    padding-top: 20px;
+    padding-top: 30px;
 }
 
 .glide__btn {
@@ -242,6 +359,10 @@
 @media (max-width: 1280px) {
     .glide {
         padding-bottom: 20px;
+    }
+
+    .glide__btn__wrap {
+        padding-top: 20px;
     }
 }
 

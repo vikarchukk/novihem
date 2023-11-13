@@ -12,7 +12,7 @@
     gap: 50px;
 }
 
-.photos_wrap a {
+.photos_item {
     width: calc(50% - 50px);
     height: 460px;
     display: block;
@@ -21,11 +21,11 @@
     transition: opacity 0.5s;
 }
 
-.photos_wrap a:hover {
+.photos_item:hover {
     opacity: 0.75;
 }
 
-.photos_wrap div {
+.photos_img {
     width: 100%; 
     height: calc(100% - 32px);
     background-position: center center;
@@ -33,7 +33,7 @@
     background-repeat: no-repeat;
 }
 
-.photos_wrap p {
+.photos_text {
     color: var(--black);
     font-family: 'Montserrat Regular', sans-serif;
     font-style: italic;
@@ -53,16 +53,16 @@
         gap: 30px 0;
     }
 
-    .photos_wrap a {
+    .photos_item {
         width: 100%;
         height: 400px;
     }
 
-    .photos_wrap div {
+    .photos_img {
         height: calc(100% - 27px);
     }
 
-    .photos_wrap p {
+    .photos_text {
         font-size: 14px;
     }
 }

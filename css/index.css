@@ -308,6 +308,9 @@
 
 .glide__slide {
     height: 550px;
+    background-position: center center;
+    background-size: cover;
+    background-repeat: no-repeat;
 }
 
 .glide__bullets {

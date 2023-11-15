@@ -6,77 +6,55 @@
             http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd">
 <!-- created with Free Online Sitemap Generator www.xml-sitemaps.com -->
 
-
 <url>
   <loc>https://novihem.se/</loc>
-  <lastmod>2023-11-13T21:14:26+00:00</lastmod>
+  <lastmod>2023-11-15T19:18:40+00:00</lastmod>
   <priority>1.00</priority>
 </url>
 <url>
-  <loc>https://novihem.se/index.html</loc>
-  <lastmod>2023-11-13T21:14:26+00:00</lastmod>
+  <loc>https://novihem.se/tjenster/</loc>
+  <lastmod>2023-11-15T19:18:40+00:00</lastmod>
   <priority>0.80</priority>
 </url>
 <url>
-  <loc>https://novihem.se/tjenster.html</loc>
-  <lastmod>2023-11-13T21:14:26+00:00</lastmod>
+  <loc>https://novihem.se/projekt/</loc>
+  <lastmod>2023-11-15T19:18:40+00:00</lastmod>
   <priority>0.80</priority>
 </url>
 <url>
-  <loc>https://novihem.se/projekt.html</loc>
-  <lastmod>2023-11-13T21:14:26+00:00</lastmod>
+  <loc>https://novihem.se/omoss/</loc>
+  <lastmod>2023-11-15T19:18:40+00:00</lastmod>
   <priority>0.80</priority>
 </url>
 <url>
-  <loc>https://novihem.se/omoss.html</loc>
-  <lastmod>2023-11-13T21:14:26+00:00</lastmod>
+  <loc>https://novihem.se/kontakt/</loc>
+  <lastmod>2023-11-15T19:18:40+00:00</lastmod>
   <priority>0.80</priority>
 </url>
 <url>
-  <loc>https://novihem.se/kontakt.html</loc>
-  <lastmod>2023-11-13T21:14:26+00:00</lastmod>
-  <priority>0.80</priority>
-</url>
-<url>
-  <loc>https://novihem.se/tjenster/tak.html</loc>
-  <lastmod>2023-11-13T21:14:26+00:00</lastmod>
-  <priority>0.80</priority>
-</url>
-<url>
-  <loc>https://novihem.se/tjenster/fasad.html</loc>
-  <lastmod>2023-11-13T21:14:26+00:00</lastmod>
-  <priority>0.80</priority>
-</url>
-<url>
-  <loc>https://novihem.se/tjenster/inre_renovering.html</loc>
-  <lastmod>2023-11-13T21:14:26+00:00</lastmod>
-  <priority>0.80</priority>
-</url>
-<url>
-  <loc>https://novihem.se/projekt/01pr.html</loc>
-  <lastmod>2023-11-13T21:14:26+00:00</lastmod>
+  <loc>https://novihem.se/projekt/1/</loc>
+  <lastmod>2023-11-15T19:18:40+00:00</lastmod>
   <priority>0.64</priority>
 </url>
 <url>
-  <loc>https://novihem.se/projekt/02pr.html</loc>
-  <lastmod>2023-11-13T21:14:26+00:00</lastmod>
+  <loc>https://novihem.se/projekt/2/</loc>
+  <lastmod>2023-11-15T19:18:40+00:00</lastmod>
   <priority>0.64</priority>
 </url>
 <url>
-  <loc>https://novihem.se/projekt/03pr.html</loc>
-  <lastmod>2023-11-13T21:14:26+00:00</lastmod>
+  <loc>https://novihem.se/projekt/3/</loc>
+  <lastmod>2023-11-15T19:18:40+00:00</lastmod>
   <priority>0.64</priority>
 </url>
 <url>
-  <loc>https://novihem.se/projekt/04pr.html</loc>
-  <lastmod>2023-11-13T21:14:26+00:00</lastmod>
+  <loc>https://novihem.se/projekt/4/</loc>
+  <lastmod>2023-11-15T19:18:40+00:00</lastmod>
   <priority>0.64</priority>
 </url>
 <url>
-  <loc>https://novihem.se/projekt/05pr.html</loc>
-  <lastmod>2023-11-13T21:14:26+00:00</lastmod>
+  <loc>https://novihem.se/projekt/5/</loc>
+  <lastmod>2023-11-15T19:18:40+00:00</lastmod>
   <priority>0.64</priority>
 </url>
-
 
 </urlset>

@@ -2,21 +2,4 @@
 
 The site of the construction company Novi Hem, which operates in Stockholm, Sweden (Novi Hem 2023)
 
-## tests
-
-- https://pagespeed.web.dev/?hl=uk
-- https://gtmetrix.com
-- https://nibbler.insites.com/en
-- https://tools.pingdom.com
-- https://pr-cy.ru
-
-домен - dcc.godaddy.com (594599539/vik*@gmail.com/46*42) (dig +noall +answer novihem.se)
-корпоративна пошта - zoho.com/mail (info@novihem.se/46*42)
-форма - formspree.io (vik*@gmail.com)
-пошук - search.google.com/search-console (vik*@gmail.com)
-gmail - novihemse@gmail.com (vik*@gmail.com)
-
-## other
-
-- https://docs.github.com/en/pages/configuring-a-custom-domain-for-your-github-pages-site/managing-a-custom-domain-for-your-github-pages-site
-- dekaentreprenad.se / novitakbygg.se / construction1.se
+U2FsdGVkX19FR+VPU9NS36Xg9bI4IsKF60Hrn61qMBUogN085mxTuZi9rRZJwiQa7ehOSxGCKaqAguyT+z0lna4bpsy0nCQ2dJxIL5J+IRN6ZTyPtM3/0FkQCuG3kLjZzN9X8aVItIzpOtwCK0hcO3h9ayluHjy6IBBGWOhJxTD5+mE7JaWj7kIRKW5WhsKZBEXW0Qm8CjAbgvYZY5ApzVZ7CLYqXZUjPBGIO9BmhH2LEnFhbgemYqotx6ZHGt/HBo4KqgAVpmhrjqs0BwIpKW6EdJ3ulzpMq1E24qlD5u0lPc+1vH+POjtAEX/Vq9YLU6+R0mMd2nzbabFa3YSsjIMbgpC4uSF6bMjBIBWfyqqwAyAnFa/O2h66nzmwH3c2ilWVUpE0bo8OPPOaU9SGkBZn8IJejmhZUpRTe4Og/RrFJwaxIYvocVJ8T2BiQF/DnPNAX3FOOVBpMUil0mKvhw==

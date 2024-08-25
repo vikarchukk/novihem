@@ -1,5 +1,0 @@
-# novihem.se
-
-The site of the construction company Novi Hem, which operates in Stockholm, Sweden (Novi Hem 2023)
-
-U2FsdGVkX19HNHmsIymEc36Y80/Ru4bgGqqm3HgF+b3Wfsw3YumG2OHWTNbkfoerB1ROScRsZGwceiky2ivI2iXS7YJKNf4ddisNfzU3zRWEdwD8+RSa5mzmDe9lH/LpDFUy1HUOmdP22/Uxhp7INBA5/KkU6kxmWmOuJXYlpL6BIL82TVOX7HuRqmVLdSnssJnSAloVHEkl3ARDj/qMMroo/7B/KFhZYY8n7yzdf3D8F5POMPX+serQCTMijIlOOuAG5NAOzQz4ttFlE/vtJoukIqGXDy8u5jU6tjW3R+nR7rOur0b+Sa6HmptJdBGQybOi46htP4x29fTJ/YA1oOEeqYfNo5p+5VA+EpBnKsgUW1mefWNOe/L0MexfbKMvEREfvfpvxhbKy+DrbB897VZZgmGmeFQayRgaSCv51E1rk5+VDlQjbtd0RD4GJHJr3/4suA/oXzIfbiYl7p9G+A==
